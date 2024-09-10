@@ -105,6 +105,13 @@ section button:hover {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #30475E; /* Cor do texto dos links */
 }
+/* Estiliza os links dentro dos itens de resultado */
+h3 {
+    font-family: sans-serif; /*Fonte utilizada dentro de a*/
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+    background: rgba(255, 255, 255, 0.9); /* Cor de fundo dos itens */
+}
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
@@ -121,8 +128,9 @@ section button:hover {
 /* Estiliza o rodapé da página */
 footer {
     font-family: sans-serif; /* Fonte do rodapé */
-    background-color: rgba(245, 247, 248, 0.9); /* Cor de fundo do rodapé com transparência pode ser utilizado em hexadeximal ou rgba */
+    
     color: #45474B; /* Cor do texto */
+    background-color: rgba(245, 247, 248, 0.9); /* Cor de fundo do rodapé com transparência pode ser utilizado em hexadeximal ou rgba */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
