@@ -103,7 +103,8 @@ section button:hover {
 .item-resultado a {
     font-family: sans-serif; /*Fonte utilizada dentro de a*/
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    color: #FADA1C; /* Cor do texto */
+    text-shadow: 1.2px 1.2px 0 #222629, -1.2px -1.5px 0 #222629, 1.5px -1.5px 0 #222629, -1.5px 1.5px 0 #222629; /*Cria uma sombra no texto para criar o efeito de arredondamento da fonte*/
 }
 /* Estiliza os links dentro dos itens de resultado */
 h3 {
